@@ -1,11 +1,12 @@
 import Footer from './Footer';
 import NavBar from './NavBar';
+import styles from '../styles/MainContainer.module.css';
 
 const MainContainer = ({ children }) => {
   return (
     <>
       <NavBar />
-      <div>{children}</div>
+      <div className={styles.container}>{children}</div>
       <Footer />
     </>
   );
