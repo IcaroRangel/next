@@ -1,7 +1,12 @@
+import Head from 'next/head';
+
 const Pants = () => {
   return (
     <>
-      <h1>Pants</h1>
+      <Head>
+        <title>Compre uma calça</title>
+      </Head>
+      <h1>Calça</h1>
     </>
   );
 };
